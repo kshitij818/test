@@ -1,0 +1,15 @@
+.get{
+    background-color: brown;
+    min-height:100vh;
+}
+.mail {
+    background-color: burlywood;
+    width:600px;
+    height:90px;
+    background-position: 50%;
+    
+    margin:auto;
+    float:center;
+
+    
+}

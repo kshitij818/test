@@ -1,0 +1,17 @@
+.main{
+    background-color: royalblue;
+    min-height: 100vh;
+     
+    font-style: italic;
+    
+    }
+ .sign{
+     background-color: red;
+     border:10px solid green;
+     min-height:10vh;
+     min-width: 10vh;
+ }   
+ .name{
+     border: 5px solid black;
+ }
+ 

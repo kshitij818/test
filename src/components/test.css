@@ -1,0 +1,93 @@
+.main{
+    background-color:purple;
+    min-height:100vh;
+    padding-top:200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    text-align:left;
+    padding-left:45px;
+
+}
+.card{
+    width:1000px;
+    margin-left:300px;
+
+}
+.footer1{
+    margin-top:60px;
+
+    align-self: flex-end;
+    width:950px;
+    background-color: cyan;
+    
+}
+#input1 {
+    
+    
+    padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    margin-right:30px;
+    margin-left:30px;
+    text-align:center;
+    
+
+
+}
+#list{
+    
+    padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    text-align:center;
+
+}
+#input2{
+    
+    padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:30px;
+    margin-left:30px;
+    text-align:center;
+
+}
+
+#input3{
+    
+    padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:30px;
+    margin-left:30px;
+    text-align:center;
+
+}
+.next {
+    background-color:cyan;
+   border: none;
+    color:black;
+    padding: 15px 30px;
+    text-align: center;
+    
+    margin: 10px;
+    margin-left:770px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+     transition: width 2s;
+   
+  }
+  .next:hover {
+    opacity: 0.8;
+  }
+
