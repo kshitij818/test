@@ -17,10 +17,10 @@ class Test extends Component {
            <option value="other">OTHER</option></select>
            <input type="text" placeholder="First Name" id="input1"></input>
            <input type="text" placeholder="Middle Name" id="input2"></input>
-           <input type="text" placeholder="Last Name" id="input3"></input><br></br>
+           <input type="text" placeholder="Last Name" id="inputtest"></input><br></br>
               <div className="footer1"> 
                <button className="next">Next &#8594;</button> </div>  
-                   
+               <button className="next">Test</button>    
                  </CardBody>
                  </card>
                 

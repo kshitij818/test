@@ -15,6 +15,7 @@ class Email extends Component{
             if(x.match(y))
             {alert("Email is correct")}
             else{alert("email is incoorect")}
+            alert("Test");
                 }                   
       clear=(event)=>{
           this.setState({
