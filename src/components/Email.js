@@ -10,28 +10,11 @@ class Email extends Component{
          
      }
      email()
-        {
-            var flag;
-            var y= this.state.name1;
-            var x= y.split("");
-            for(let i=0;i<=x.length;i++)
-                 {
-                    if(x[i]=="@" )
-                     { flag=1;
-                     }
-                 }
-             for(let j=0;j<=x.length;j++)
-                 {
-                    if(x[j]==".")
-                    {flag= flag+1;} 
-                  }    
-                    if(flag>=2)
-                      {alert("email is correct");}
-                      else if(flag<2)
-                       {alert("email is missing . or @character");}
-                       
-                     
-                           else{alert("incorrect email");}
+        { var x=this.state.name1;
+            var y=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(x.match(y))
+            {alert("Email is correct")}
+            else{alert("email is incoorect")}
                 }                   
       clear=(event)=>{
           this.setState({

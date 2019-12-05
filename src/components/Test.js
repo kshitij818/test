@@ -18,8 +18,8 @@ class Test extends Component {
            <input type="text" placeholder="First Name" id="input1"></input>
            <input type="text" placeholder="Middle Name" id="input2"></input>
            <input type="text" placeholder="Last Name" id="input3"></input><br></br>
-              <div className="footer1"> < CardFooter className="footer">
-               <button className="next">Next &#8594;</button></CardFooter> </div>  
+              <div className="footer1"> 
+               <button className="next">Next &#8594;</button> </div>  
                    
                  </CardBody>
                  </card>

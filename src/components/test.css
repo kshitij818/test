@@ -14,14 +14,7 @@
     margin-left:300px;
 
 }
-.footer1{
-    margin-top:60px;
 
-    align-self: flex-end;
-    width:950px;
-    background-color: cyan;
-    
-}
 #input1 {
     
     
@@ -70,8 +63,9 @@
     text-align:center;
 
 }
+
 .next {
-    background-color:cyan;
+background-color:cyan;
    border: none;
     color:black;
     padding: 15px 30px;
@@ -85,9 +79,22 @@
     font-size: 15px;
     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
      transition: width 2s;
-   
+       
   }
   .next:hover {
     opacity: 0.8;
   }
 
+  .footer1{
+    width:1000px;
+    margin-top:20px;
+    background-color:cyan;
+    
+    block-size: 90px;
+    position:relative;
+    right:20px;
+    top:22px;
+}
+.footer1:hover{
+    opacity: 0.8;
+}
